@@ -1,4 +1,5 @@
 import './App.css';
+import PostForm from './components/postForm';
 import PostList from './components/PostList';
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
     <div className="App">
       <h1>LIST OF POSTS</h1>
       <header className="App-header">
-      <PostList/>
+        <PostForm/>
+        <PostList/>
       </header>
     </div>
   );
